@@ -1,3 +1,5 @@
+## Canaritos Asesinos
+
 La salida de LightGBM te da 3 cosas para ver si una variable es util:
 
 - Gain: representa la mejora en la precisión que tiene el modelo al dividir una rama mediante esa variable.
