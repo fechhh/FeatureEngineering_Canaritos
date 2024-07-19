@@ -441,7 +441,7 @@ wf_septiembre <- function( pnombrewf, ratio_CN, desvio_CN)
 # Aqui comienza el programa
 
 # llamo al workflow con future = 202109
-# agrego un bucle para estudiar "ratio" y "desvio" en canaritos asesinos
+# defino los optimos para ratio y desvio de Canaritos Asesinos
 
 ratio_cn <- 0.8
 desvio_cn <- 1.0
