@@ -443,12 +443,8 @@ wf_septiembre <- function( pnombrewf, ratio_CN, desvio_CN)
 # llamo al workflow con future = 202109
 # agrego un bucle para estudiar "ratio" y "desvio" en canaritos asesinos
 
-ratio_CN <- c(0.1, 1.5)
-desvio_CN <- c(0.5, 1)
+ratio_cn <- 0.8
+desvio_cn <- 1.0
 
-for ratio in ratio_CN{
-  for desvio in desvio_CN{
-    wf_septiembre(ratio, desvio)
-  }
-}
+wf_septiembre(ratio_cn, desvio_cn)
 
