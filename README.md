@@ -1,9 +1,8 @@
 ## Canaritos Asesinos
 
-La salida de LightGBM te da 3 cosas para ver si una variable es util:
+Link al spreadsheet con los resultados de todos los experimentos:
+https://docs.google.com/spreadsheets/d/1oaXGebYxQyfpXSoeAzavdBi-ElB0aLJ7_tG8i182QeQ/edit?gid=0#gid=0
 
-- Gain: representa la mejora en la precisión que tiene el modelo al dividir una rama mediante esa variable.
-- Cover: porcentaje de registros que se ven afectados por esta variable en el modelo.
-- Frequency: que tan frecuente esa variable es utilizada en el modelo.
-
-Claro que todas las variables que no sean importantes van a tener valores bajos para estas 3 categorías.
+### Combinación Elegida
+Ratio = 0.8
+Desvio = 1.0
